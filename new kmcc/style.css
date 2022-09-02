@@ -46,7 +46,7 @@ html, body {
   p {
     font-size: 14px;
     line-height: 25px;
-    color: #2a2a2a;
+    color: #000000;
   }
   
   img {
@@ -99,7 +99,7 @@ Nav
 
 .header-area{
     background-color: #11ff00c8;
-  position: absolute;
+  position: static;
   left: 0;
   right: 0;
   z-index: 100;
@@ -131,6 +131,8 @@ Nav
   position: relative;
   z-index: 999;
 }
+
+
 
 .header-area .main-nav .nav li {
     padding-left: 15px;
@@ -183,9 +185,6 @@ Nav
     top: 12px;
   }
   
-  .background-header .main-nav .nav li.has-sub:after {
-    color: #1e1e1e;
-  }
   
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: absolute;
@@ -241,3 +240,45 @@ Nav
     transform: translateY(0%);
     transition-delay: 0s, 0s, 0.3s;
   }
+
+
+
+  
+
+  /* ===================
+container
+====================== */
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+      max-width: 1185px;
+    }
+  }
+
+  
+
+   /* ===================
+Main
+====================== */
+
+.main {
+
+    padding: 0%;
+    margin: 0%;
+}
+
+.about h1{
+    background-color: blueviolet;
+
+}
+.div-full h3 {
+    background-color: yellow;
+}
+.div-full p{
+    background-color: fuchsia;
+}
