@@ -1,8 +1,5 @@
 /*
 
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
 
 */
 
@@ -130,12 +127,12 @@ body {
 }
 
 ::selection {
-  background: #f5a425;
+  background: #70B11F;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: #70B11F;
   color: #fff;
 }
 
@@ -158,7 +155,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #0A285E;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -174,7 +171,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: #70B11F;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -235,12 +232,12 @@ header
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #f5a425;
+  color: #70B11F;
 }
 
 .sub-header .left-content p em {
    font-style: normal;
-   color: #f5a425;
+   color: #70B11F;
 }
 
 .background-header {
@@ -350,12 +347,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #70B11F!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #70B11F!important;
   opacity: 1;
 }
 
@@ -417,7 +414,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #f5a425!important;
+  color: #70B11F!important;
   padding-left: 25px;
 }
 
@@ -557,7 +554,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f5a425;
+  color: #70B11F;
 }
 
 @media (max-width: 1200px) {
@@ -576,7 +573,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #f5a425!important;
+    color: #70B11F!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -634,7 +631,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #f5a425!important;
+    color: #70B11F!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -739,7 +736,7 @@ banner
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #f5a425;
+  color: #70B11F;
   font-weight: 900;
 }
 
@@ -930,7 +927,7 @@ section.upcoming-meetings .categories ul li a {
 }
 
 section.upcoming-meetings .categories ul li a:hover {
-  color: #a12c2f;
+  color: #0A285E;
 }
 
 section.upcoming-meetings .categories .main-button-red {
@@ -990,7 +987,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #0A285E;
 }
 
 .meeting-item .down-content .date span {
@@ -1023,7 +1020,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/apply-bg.jpg);
+  background-image: url(../images/PHOTO-2022-09-01-13-11-11.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1082,7 +1079,7 @@ section.apply-now .item p {
   transition: transform 200ms ease-in-out;
 }
 .accordion-head.is-open {
-  color: #f5a425;
+  color: #70B11F;
   border-bottom: none;
 }
 .accordion-head.is-open .icon {
@@ -1117,13 +1114,13 @@ section.our-courses {
 }
 
 .our-courses .item .down-content {
-  background-color: #fff;
+  background-color: #70B11F;
 }
 
 .our-courses .item .down-content h4 {
   padding: 25px;
-  font-size: 18px;
-  color: #1f272b;
+  font-size: 14px;
+  color: #A50F28;
   text-align: center; 
   border-bottom: 1px solid #eee;
 }
@@ -1138,12 +1135,12 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info ul li i {
-  color: #f5a425;
+  color: #70B11F;
   font-size: 14px;
 }
 
 .our-courses .item .down-content .info span {
-  color: #a12c2f;
+  color: #0A285E;
   font-size: 15px;
   font-weight: 600;
   text-align: right;
@@ -1255,7 +1252,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(../images/PHOTO-2022-09-01-13-11-11\ \(9\).jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1265,16 +1262,17 @@ section.our-facts {
 
 section.our-facts h2 {
   font-size: 38px;
-  color: #fff;
+  color: rgb(255, 0, 0);
   line-height: 50px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.5px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(250,250,250,0.15);
+  background-color: #fff;
   border-radius: 20px;
   padding: 25px 30px 35px 30px;
   margin: 15px 0px;
@@ -1285,16 +1283,11 @@ section.our-facts h2 {
   margin-left: 3px;
 }
 
-.count-digit {
-    margin: 5px 0px;
-    color: #f5a425;
-    font-weight: 700;
-    font-size: 36px;
-}
+
 .count-title {
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: #70B11F;
     letter-spacing: 0.5px;
 }
 
@@ -1302,15 +1295,7 @@ section.our-facts h2 {
   margin-top: 45px;
 }
 
-section.our-facts .video {
-  text-align: center;
-  margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  border-radius: 20px;
-}
+
 
 section.our-facts .video img {
   padding: 170px 0px;
@@ -1383,7 +1368,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #0A285E;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1399,7 +1384,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #0A285E;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1444,7 +1429,7 @@ section.contact-us .right-info ul li span {
 }
 
 .footer p a {
-  color: #f5a425;
+  color: #70B11F;
 }
 
 
@@ -1507,7 +1492,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #0A285E;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1521,7 +1506,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #0A285E;
   color: #fff;
 }
 
@@ -1562,7 +1547,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #0A285E;
   color: #fff;
 }
 
@@ -1613,7 +1598,7 @@ section.meetings-page .pagination ul li a:hover {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #0A285E;
 }
 
 .meeting-single-item .thumb .date span {
@@ -1676,7 +1661,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content .share ul li a:hover {
-  color: #f5a425;
+  color: #70B11F;
 }
 
 /* Meeting item column */
