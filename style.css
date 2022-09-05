@@ -114,6 +114,17 @@ Nav
   height: 50px;
 }
 
+.py-5 h1{
+  font-size: 35px;
+  font-weight: 800;
+  color: #0A285E;
+}
+
+.py-5 p{
+  font-size: 19px;
+  font-weight: 500;
+}
+
 
 
 
