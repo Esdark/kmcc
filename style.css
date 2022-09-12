@@ -413,7 +413,7 @@ a, a:hover {
   .timeline-steps .timeline-step:not(:last-child):after {
     content: "";
     display: block;
-    border-top: 0.25rem dotted #3b82f6;
+    border-top: 0.25rem dotted #70B11F;
     width: 3.46rem;
     position: absolute;
     left: 7.5rem;
@@ -422,7 +422,7 @@ a, a:hover {
   .timeline-steps .timeline-step:not(:first-child):before {
     content: "";
     display: block;
-    border-top: 0.25rem dotted #3b82f6;
+    border-top: 0.25rem dotted #70B11F;
     width: 3.8125rem;
     position: absolute;
     right: 7.5rem;
