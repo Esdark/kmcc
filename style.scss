@@ -26,7 +26,10 @@ html{
   margin: 0%;
 }
 
-
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+}
 
 
 
@@ -58,7 +61,7 @@ html{
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Roboto Slab', serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -66,7 +69,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgb(13, 255, 0);
 }
 
 
@@ -122,6 +125,7 @@ header.masthead .masthead-heading {
 /* Mission and vision*/
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
 $main-green: #70B11F !default;
 $main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
 $main-yellow: #bdbb49 !default;
@@ -133,7 +137,7 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 
 /* This pen */
 body {
-	font-family: "Baloo 2", cursive;
+	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 	color: #ffffff;
 	text-rendering: optimizeLegibility;
