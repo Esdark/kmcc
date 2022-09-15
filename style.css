@@ -23,7 +23,7 @@ html {
   margin: 0%;
 }
 
-h1, h3 {
+h1, h3, h2 {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   color: #70B11F;
@@ -31,6 +31,11 @@ h1, h3 {
 
 p {
   color: #70B11F;
+}
+
+.btn-primary {
+  background-color: #70B11F !important;
+  border-color: #70B11F !important;
 }
 
 .bd-placeholder-img {
