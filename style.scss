@@ -27,7 +27,7 @@ html{
 }
 
 h1,h3,h2{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 900;
   color: #70B11F;
 }
@@ -69,7 +69,7 @@ p{
 
 body {
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Nunito', sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -112,7 +112,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(to bottom, #f5f6fc85, #6fb11f9b),
+  background-image: linear-gradient(to bottom, #ffffff85, #6fb11f47),
   url('assets/img/PHOTO-2022-09-01-13-11-11.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -124,14 +124,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Nunito', sans-serif;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Nunito', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -198,7 +198,7 @@ header.masthead .masthead-heading {
 	font-size:30px;
 	color:#fff;
 	display:block;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Nunito', sans-serif;
 }
 .featured-texts{
 	border-top:1px solid #e6e6e6;
@@ -222,7 +222,7 @@ header.masthead .masthead-heading {
 	font-size:30px;
 	color:#333;
 	display:block;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 
@@ -256,7 +256,7 @@ $main-blue-rgb-015: #6fb11f23 !default;
 
 /* This pen */
 body {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	color: #ffffff;
 	text-rendering: optimizeLegibility;
@@ -704,9 +704,23 @@ footer{
 }
 
 
-strong{
+nav strong{
   color: #70B11F !important;
 }
+
+.display-4{
+  font-weight: 700 !important;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 //Events
@@ -724,7 +738,7 @@ strong{
   overflow: hidden;
   position: relative;
   padding-bottom: 60%;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .hover-overlay {
