@@ -67,7 +67,20 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgb(13, 255, 0);
+  -webkit-tap-highlight-color: #fff;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+a.nav-link {
+  color: #70B11F !important;
+}
+
+a.active {
+  background-color: #70B11F !important;
+  color: #fff !important;
 }
 
 header.masthead {
@@ -320,6 +333,11 @@ a, a:hover {
   width: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  .postcard__img {
+    display: none;
+  }
+}
 @media screen and (min-width: 769px) {
   .postcard {
     flex-wrap: inherit;
@@ -331,7 +349,7 @@ a, a:hover {
     justify-content: start;
   }
   .postcard .postcard__img {
-    max-width: 250px;
+    max-width: 300px;
     max-height: 100%;
     transition: transform 0.3s ease;
   }
