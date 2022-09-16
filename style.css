@@ -257,6 +257,8 @@ a, a:hover {
 }
 .postcard a {
   color: inherit;
+  font-size: 4rem;
+  font-weight: 700;
 }
 .postcard h1, .postcard .h1 {
   margin-bottom: 0.5rem;
