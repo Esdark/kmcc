@@ -24,9 +24,10 @@
 html{
   padding: 0%;
   margin: 0%;
+  font-family: 'Nunito', sans-serif;
 }
 
-h1,h3,h2{
+h1,h3,h2,h5{
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
   color: #70B11F;
@@ -40,8 +41,9 @@ p{
   border-color: #70B11F !important;
 }
 
-
-
+.text-success{
+  color: #70B11F !important;
+}
 
 
 
@@ -170,7 +172,7 @@ header.masthead .masthead-heading {
 .featured-links .featured-link{
 	height:100px;
 	text-align:center;
-	color:#70B11F;
+	color:#ffffff;
 	display:block;
 	padding:20px 30px 0;
 	background-repeat:no-repeat;
@@ -841,10 +843,31 @@ nav strong{
 
 
 
+/*
+*
+* ==========================================
+* help SCSS
+* ==========================================
+*
+*/
 
+.help_title{
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+  
+}
 
-
-
+.Countrywide{
+  flex-wrap: wrap;
+  display: flex;
+  
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: $main-green;
+}
 
 
 
