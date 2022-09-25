@@ -905,4 +905,64 @@ a:hover, a:focus {
 .col-12 img:hover {
   opacity: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+*
+* ==========================================
+* coming soon
+* ==========================================
+*
+*/
+.message {
+  display: flex;
+  justify-content: center;
+  perspective: 500;
+  padding-top: 25vh;
+}
+
+.texts {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 15vh;
+  line-height: normal;
+  height: 25vh;
+  width: 60%;
+  outline: 10px;
+  outline-style: double;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+@media screen and (max-width: 995px) {
+  .texts {
+    font-size: 7vh;
+  }
+}
+.goback {
+  display: flex;
+  justify-content: center;
+  perspective: 500;
+  padding-top: 25vh;
+}
+
+.textss {
+  position: relative;
+  letter-spacing: 1px;
+  height: 25vh;
+  width: 60%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
