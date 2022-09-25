@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 
 :root {
@@ -114,7 +116,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(to right, #0af50a0a, #00000041),
+  background-image: linear-gradient(-90deg, #0af50a0a, #00000041),
   url('assets/img/PHOTO-2022-09-01-13-11-11.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -126,14 +128,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 @media (min-width: 768px) {
