@@ -800,7 +800,9 @@ nav strong {
 }
 
 .service-22 h1, .service-22 h2, .service-22 h3, .service-22 h4, .service-22 h5, .service-22 h6 {
-  color: #70B11F;
+  color: #000;
+  font-weight: 800 !important;
+  text-transform: uppercase;
 }
 
 .service-22 .font-weight-medium {
